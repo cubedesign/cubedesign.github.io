@@ -1,0 +1,101 @@
+@font-face{
+    font-family:'Roboto-Light';
+    src: url(Fonts/Roboto-Light.ttf);
+}
+@font-face{
+    font-family:'Roboto-Thin';
+    src: url(Fonts/Roboto-Thin.ttf);
+}
+@font-face{
+    font-family:'Getona-Bold';
+    src: url(Fonts/Getona-Bold.otf);
+}
+@font-face{
+    font-family:'Roboto-Bold';
+    src: url(Fonts/Roboto-Bold.ttf);
+}
+nav i{
+    color: white;
+    font-size: 23px;
+    margin: 0;
+    padding: 15px 10px 10px;
+}
+nav i:hover{
+    color: #00AAFF  ; 
+}
+
+.name{
+    float:left;
+    padding-left:0px;
+    font-family:'Roboto-Bold';
+    padding-top: 6px;  
+}
+body{
+    margin: auto;
+}
+.name a{
+    text-decoration: none;
+    color: #000;
+    padding: 13px 15px;
+    font-size: 18px;   
+}
+
+.icons{
+    width: auto;
+    margin: auto;
+    height: 50px;
+    background: #313131;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+}
+
+ul li {
+    float: right;
+    padding-right: 40px;
+}
+
+.navcontent a{
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Roboto-Light';
+}
+
+
+.navcontent a{
+    position: relative;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .navcontent a:hover {
+    color: #00AAFF;
+  }
+  .navcontent a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0px;
+    left: 0;
+    background-color: #216A8F;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .navcontent a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  
